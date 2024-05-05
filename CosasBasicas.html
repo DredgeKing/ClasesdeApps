@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isil-Apps</title>
+    <link rel="stylesheet" href="Apps.css">
+    <script src="Apps.js"></script>
+    <link rel="Icon" href="Imagenes/nerd.ico">
+</head>
+<body>
+    <div class="wrapper">
+
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/letra.jpg">    
+        <p>Nombre: Como cambiar de letra y tamaño</p>
+        <button onclick="abrirDescripcion('alertBox1')">Leer Instrucciones</button>   
+                <div class="XXX" id="alertBox1">
+            <p>Descripción: </p>
+            Ajustas el tamaño y el tipo de letra 
+            por buenas practicas se recomienda dormir 
+            de vez en cuando! 
+            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox1')">X</button>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/coil.jpg">    
+        <p>Nombre: La libreria de imagenes</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar coil</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox2')">Leer Descripción</button>   
+                    <div class="box">
+                        implementation("io.coil-kt:coil-compose:2.0.0")
+                    </div>
+                        <div class="XXX" id="alertBox2">
+                            <p>Descripcion:</p>  
+                            Hay una version 2.0.6 en internet pero en la Clase
+                            nos dijeron que esa es la que deberìamos usar
+                            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox2')">X</button>
+                        </div>
+        </div>
+    </div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/permisos.jpg">    
+        <p>Nombre: Permiso para el Coil</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar permiso</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox3')">Leer Descripción</button>   
+                    <div class="box">
+                       < uses-permission android:name="android.permission.INTERNET"/>
+                    </div>
+                        <div class="XXX" id="alertBox3">
+                            <p>Descripcion: </p>  
+                               Esto va en el manifest y se usa para poder
+                               usar el coil, solo copialo y pegalo donde lo ves 
+                               señalado 
+                            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox3')">X</button>
+                        </div>
+        </div>
+    </div>   
+
+
+
+
+
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/Import.jpg">    
+        <p>Nombre: Los imports màs usados</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar Imports</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox4')">Leer Descripción</button>   
+                    <div class="box">
+                        Bimport android.os.Bundle
+                        import androidx.activity.ComponentActivity
+                        import androidx.activity.compose.setContent
+                        import androidx.compose.foundation.background
+                        import androidx.compose.foundation.border
+                        import androidx.compose.foundation.layout.Arrangement
+                        import androidx.compose.foundation.layout.Box
+                        import androidx.compose.foundation.layout.Column
+                        import androidx.compose.foundation.layout.Row
+                        import androidx.compose.foundation.layout.Spacer
+                        import androidx.compose.foundation.layout.fillMaxSize
+                        import androidx.compose.foundation.layout.fillMaxWidth
+                        import androidx.compose.foundation.layout.height
+                        import androidx.compose.foundation.layout.padding
+                        import androidx.compose.foundation.layout.size
+                        import androidx.compose.foundation.layout.width
+                        import androidx.compose.foundation.shape.RoundedCornerShape
+                        import androidx.compose.material.icons.Icons
+                        import androidx.compose.material.icons.filled.AccountBox
+                        import androidx.compose.material.icons.filled.Add
+                        import androidx.compose.material.icons.filled.Call
+                        import androidx.compose.material.icons.filled.CheckCircle
+                        import androidx.compose.material.icons.filled.KeyboardArrowLeft
+                        import androidx.compose.material.icons.filled.LocationOn
+                        import androidx.compose.material.icons.filled.ThumbUp
+                        import androidx.compose.material.icons.rounded.AccountCircle
+                        import androidx.compose.material.icons.rounded.KeyboardArrowLeft
+                        import androidx.compose.material.icons.rounded.LocationOn
+                        import androidx.compose.material.icons.rounded.Place
+                        import androidx.compose.material.icons.rounded.Star
+                        import androidx.compose.material.icons.rounded.ThumbUp
+                        import androidx.compose.material3.Button
+                        import androidx.compose.material3.ButtonDefaults
+                        import androidx.compose.material3.Icon
+                        import androidx.compose.material3.MaterialTheme
+                        import androidx.compose.material3.Surface
+                        import androidx.compose.material3.Text
+                        import androidx.compose.runtime.Composable
+                        import androidx.compose.ui.Alignment
+                        import androidx.compose.ui.Modifier
+                        import androidx.compose.ui.draw.clip
+                        import androidx.compose.ui.graphics.Color
+                        import androidx.compose.ui.layout.ContentScale
+                        import androidx.compose.ui.text.font.FontWeight
+                        import androidx.compose.ui.tooling.preview.Preview
+                        import androidx.compose.ui.unit.dp
+                        import androidx.compose.ui.unit.sp
+                        import coil.compose.AsyncImage                                                                     
+                    </div>
+                        <div class="XXX" id="alertBox4">
+                            <p>Descripcion:</p>  
+                            Estos son los imports màs usados.
+                            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox4')">X</button>
+                        </div>
+        </div>
+    </div>   
+
+
+
+
+
+
+
+<div class="vertical-div">
+    <ul>
+        <a href="CosasBasicas.html">Cosas Básicas</a>
+        <a href="#">Clase 1</a>
+        <a href="#">Clase 2</a>
+        <a href="#">Clase 3</a>
+        <a href="ClasesApps.html">EP 01  </a>
+        <a href="#">Clase 4</a>
+        <a href="Error.html">Error 1</a>
+        <a href="donaciones.html">Donaciones</a>
+    </ul>
+  </div>
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background-color: gainsboro;
+}
+.box{
+    display: none;
+}
+.alert {
+    padding: 15px;
+    background-color: rgb(112, 112, 240);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1000; 
+}
+/*El div mas grande de todos*/
+.wrapper {
+    display: flex;
+    height: 620px;
+    width: 1170px;
+    overflow-y: hidden; /* Añade un scrollbar vertical cuando el contenido excede la altura máxima */
+}
+
+/*Separa los contenedores de manera verti*/
+.container{
+    display: inline-block;
+    margin-right: 20px;
+}
+.vertical-div {
+    width: 136px;
+    height: 78vh; /* Cubre toda la altura de la ventana */
+    position: fixed; /* Mantén fijo el contenedor vertical en la ventana */
+    top: 0; /* Alinea el contenedor vertical en la parte superior */
+    right: 0; /* Alinea el contenedor vertical a la derecha */
+    margin-right: 20px;
+    margin-top: 7px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+.vertical-div ul {
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+.vertical-div ul a {
+    display: block; /* Hace que los elementos <a> sean bloques */
+    padding: 2px; /* Añade relleno para un mejor aspecto */
+}
+.XXX{
+    max-width: 440px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#cerrarBtn {
+    position: absolute;
+    top: 8px; /* Ajustar según sea necesario */
+    right: 10px; /* Ajustar según sea necesario */
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }

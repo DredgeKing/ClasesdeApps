@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isil-Apps</title>
+    <link rel="stylesheet" href="Apps.css">
+    <script src="Apps.js"></script>
+    <link rel="Icon" href="Imagenes/nerd.ico">
+</head>
+<body>
+    <div class="wrapper">
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/rectangle.jpg">    
+        <p>Nombre: Botòn - rectangular redondeado</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar còdigo</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox1')">Leer Descripción</button>   
+                    <div class="box">
+                        Box(modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .padding(bottom = 30.dp)
+                        .size(340.dp, 64.dp)
+                        .clip(shape = RoundedCornerShape(16.dp))
+                        .background(color = Color.DarkGray)){
+                        Button(
+                            modifier = Modifier.fillMaxSize(),
+                            onClick = {},
+                            colors = ButtonDefaults.buttonColors(Color.DarkGray)
+                        ) {
+                            Text("Get Started")
+                            }
+                            }
+                    </div>
+                <div class="XXX" id="alertBox1">
+            <p>Descripción: </p>
+            Un rectangulo redondeado a color perfecto 
+            <p>Codigo Completo: </p>
+            Box(modifier = Modifier
+            .align(Alignment.BottomCenter)
+            .padding(bottom = 30.dp)
+            .size(340.dp, 64.dp)
+            .clip(shape = RoundedCornerShape(16.dp))
+            .background(color = Color.DarkGray)){
+            Button(
+                modifier = Modifier.fillMaxSize(),
+                onClick = {},
+                colors = ButtonDefaults.buttonColors(Color.DarkGray)
+            ) {
+                Text("Get Started")
+                }
+                }
+            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox1')">X</button>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/rectangle2.jpg">    
+        <p>Nombre: Botòn - Capsula con color</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar còdigo</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox2')">Leer Descripción</button>   
+                    <div class="box">
+                        Button(onClick = {},
+                        colors = ButtonDefaults.buttonColors(Color."el color que tu quieras")) {
+                            Text("Escribe lo que tu quieras", color = Color.el color que tu quieras)
+                        }
+                    </div>
+                        <div class="XXX" id="alertBox2">
+                            <p>Descripcion:</p>  
+                                Un botón en forma de capsula con color y texto.
+                              <p>Codigo completo: </p>
+                               Button(onClick = {},
+                                colors = ButtonDefaults.buttonColors(Color."el color que tu quieras")) {
+                                    Text("Escribe lo que tu quieras", color = Color.el color que tu quieras)
+                                }</p>
+                            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox2')">X</button>
+                        </div>
+        </div>
+    </div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/rectangle1.jpg">    
+        <p>Nombre: Imagen Completa</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar còdigo</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox3')">Leer Descripción</button>   
+                    <div class="box">
+                        @Composable
+                        fun "El nombre de tu función"() {
+                            Box(Modifier.fillMaxSize()) {
+                                AsyncImage(
+                                    model = "El link de tu imagen",
+                                    contentDescription = null,
+                                    modifier = Modifier.fillMaxSize(),
+                                    contentScale = ContentScale.Crop
+                                )  
+                    </div>
+                        <div class="XXX" id="alertBox3">
+                            <p>Descripcion: </p>  
+                                Como poner una imagen tamaño completo en el 
+                                fondo de pantalla 
+                              <p>Codigo completo: </p>
+                              @Composable
+                              fun "El nombre de tu función"() {
+                                  Box(Modifier.fillMaxSize()) {
+                                      AsyncImage(
+                                          model = "El link de tu imagen",
+                                          contentDescription = null,
+                                          modifier = Modifier.fillMaxSize(),
+                                          contentScale = ContentScale.Crop
+                                      )                            
+                              </p>
+                            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox3')">X</button>
+                        </div>
+        </div>
+    </div>   
+
+
+
+
+
+
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/Rectangle3a.jpg">    
+        <p>Nombre: Botón rectangular redondeado 2</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar còdigo</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox4')">Leer Descripción</button>   
+                    <div class="box">
+                        Button(onClick = {},
+                        colors = ButtonDefaults.buttonColors(Color."el color que tu quieras")) {
+                            Text("Escribe lo que tu quieras", color = Color.el color que tu quieras)
+                        }
+                    </div>
+                        <div class="XXX" id="alertBox4">
+                            <p>Descripcion:</p>  
+                            El problema surge que aveces los botones se deforman y 
+                            se convierten en capsulas, aquí mantiene su forma 
+                            un texto encima. 
+                              <p>Codigo completo: </p>
+                               Button(onClick = {},
+                                colors = ButtonDefaults.buttonColors(Color."el color que tu quieras")) {
+                                    Text("Escribe lo que tu quieras", color = Color.el color que tu quieras)
+                                }</p>
+                            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox4')">X</button>
+                        </div>
+        </div>
+    </div>   
+
+
+    
+    <div class="container">
+        <div class="square">   
+            <img src="Imagenes/Rectangle3a.jpg">    
+        <p>Nombre: Botón rectangular redondeado 2</p>
+        <button class="copyButton" onclick="mostrarAlerta(this)">Copiar còdigo</button>        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button onclick="abrirDescripcion('alertBox4')">Leer Descripción</button>   
+                    <div class="box">
+                        Button(onClick = {},
+                        colors = ButtonDefaults.buttonColors(Color."el color que tu quieras")) {
+                            Text("Escribe lo que tu quieras", color = Color.el color que tu quieras)
+                        }
+                    </div>
+                        <div class="XXX" id="alertBox4">
+                            <p>Descripcion:</p>  
+                            El problema surge que aveces los botones se deforman y 
+                            se convierten en capsulas, aquí mantiene su forma 
+                            un texto encima. 
+                              <p>Codigo completo: </p>
+                               Button(onClick = {},
+                                colors = ButtonDefaults.buttonColors(Color."el color que tu quieras")) {
+                                    Text("Escribe lo que tu quieras", color = Color.el color que tu quieras)
+                                }</p>
+                            <button id="cerrarBtn" onclick="cerrarDescripcion('alertBox4')">X</button>
+                        </div>
+        </div>
+    </div>   
+
+
+
+
+</div>
+
+
+<div class="vertical-div">
+    <ul>
+      <a href="CosasBasicas.html">Cosas Básicas</a>
+      <a href="#">Clase 1</a>
+      <a href="#">Clase 2</a>
+      <a href="#">Clase 3</a>
+      <a href="ClasesApps.html">EP 01  </a>
+      <a href="#">Clase 4</a>
+      <a href="#">Clase 5</a>
+    </ul>
+  </div>
+
+
+
+
+
+</body>
+</html>
